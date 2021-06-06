@@ -17,9 +17,7 @@ jobs:
         make lint
     - name: Test with Pytest
       run: |
-        make lint
-    - name: Test with Pytest
-      run: |
+        make test
     - name: Format code with python black
       run: |
         make format
